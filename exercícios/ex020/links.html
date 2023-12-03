@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: 200;
+        }
+
+        a:visited{
+            color: blue;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: green;
+        }
+
+        a:active{
+            color: darkmagenta;
+        }
+
+        .especial::before{
+            content: ':p ';
+            color: green;
+        }
+
+        .especial::after{
+            content: '(link)';
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank">github</a></li>
+        <li><a href="https://coolors.co/e5d4ed-6d72c3-5941a9-514f59-1d1128" target="_blank" class="especial">youtube</a></li>
+        <li><a href="https://studeo.unicesumar.edu.br/#!/app/studeo/aluno/ambiente/disciplina/2023_EGRAD_ADSIS4GA-54_EGRAD_NGER100_025/aula-player//aula_conceitual" target="_blank">curso</a></li>
+    </ul>
+</body>
+</html>
