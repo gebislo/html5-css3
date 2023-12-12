@@ -10,11 +10,14 @@
 
 body{
     background-color: var(--cor4);
+    border: 0px;
+    margin: 0%;
 }
 
 
 header{
     padding-top: 10px;
+    border: 0px;
     margin: 0%;
     background-image: linear-gradient(rgb(79, 147, 79), rgb(34, 64, 34));
     width: 100%;
@@ -44,7 +47,7 @@ nav > a{
     color: white;
     text-decoration: none; 
     padding: 10px;
-    transition-duration: 2s;
+    transition-duration: 0.5s;
 }
 
 nav > a:hover{
@@ -74,7 +77,6 @@ main p{
 main a{
     text-decoration: none;
     font-weight: bolder;
-    background-color: #AA8F66;
 }
 
 main a:hover{
@@ -87,9 +89,9 @@ img{
 }
 
 h2, h3{
+    color: rgb(5, 77, 5);
     font-family: 'idroid';
     src: url('fontes/idroid.otf') format(opentype);
-    font-weight: normal;
 }
 
 p{
